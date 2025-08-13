@@ -8,11 +8,12 @@
 ## Setup Instructions
 
 1. Clone the repository
-2. Install dependencies:
+2. cd ./patient-profile-ui
+3. Install dependencies:
    ```bash
    npm install
    ```
-3. Start the development server:
+4. Start the development server:
    ```bash
    npm run dev
    ```
