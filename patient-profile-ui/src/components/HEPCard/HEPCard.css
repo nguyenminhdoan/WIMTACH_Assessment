@@ -1,0 +1,136 @@
+.hep-card {
+  width: 750px;
+  height: 135.31842041015625px;
+  opacity: 1;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0px 1px 4px 0px #00000040;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.edit-hep-section {
+  width: 150px;
+  height: 135.31842041015625px;
+  opacity: 1;
+  gap: 10px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hep-content-section {
+  width: 541px;
+  height: 109px;
+  opacity: 1;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 13px 15px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.hep-header {
+  width: 100%;
+  height: 28px;
+  opacity: 1;
+  gap: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.hep-title {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hep-edited {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6c757d;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.hep-stats {
+  width: 100%;
+  max-width: 529px;
+  height: 62px;
+  justify-content: space-between;
+  opacity: 1;
+  display: flex;
+  margin-bottom: 0;
+}
+
+.hep-stat-item {
+  width: 264.5px;
+  height: 42px;
+  opacity: 1;
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hep-stat-divider {
+  width: 62.00000000000006px;
+  height: 0px;
+  transform: rotate(90deg);
+  opacity: 1;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  align-self: center;
+}
+
+.hep-stat-label {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6c757d;
+}
+
+.hep-stat-value {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.edit-hep-button {
+  background: #e791d9;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  color: #ffffff;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.edit-hep-button:hover {
+  background: #c026d3;
+}

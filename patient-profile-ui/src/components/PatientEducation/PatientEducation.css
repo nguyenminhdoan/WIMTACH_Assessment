@@ -1,0 +1,54 @@
+.patient-education {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  height: 300px;
+}
+
+.education-title {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0 0 16px 0;
+}
+
+.education-divider {
+  width: 698.0000000000026px;
+  height: 0.000061021102737868435px;
+  opacity: 1;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  margin-bottom: 16px;
+}
+
+.education-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.education-text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #6c757d;
+}
+
+.education-image {
+  width: 318;
+  height: 153;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.education-illustration {
+  display: flex;
+  justify-content: center;
+}

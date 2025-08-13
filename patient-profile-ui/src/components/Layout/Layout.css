@@ -1,0 +1,42 @@
+.layout {
+  width: 1366px;
+  height: 768px;
+  opacity: 1;
+}
+
+.main-content {
+  margin-left: 70px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+/* Background */
+.background-shapes {
+  position: absolute;
+  bottom: 0;
+  left: -19.09px;
+  width: 1671.2569580078125px;
+  height: 1128.961669921875px;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+  opacity: 1;
+}
+
+.bg-rectangle {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 60px;
+  }
+}

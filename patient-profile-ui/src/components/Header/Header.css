@@ -1,0 +1,87 @@
+.header {
+  background-color: var(--white);
+  border-radius: 9px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.patient-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--primary-purple);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.patient-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.patient-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--black);
+  margin: 0 0 4px 0;
+}
+
+.patient-id {
+  font-size: 14px;
+  color: var(--secondary-text);
+  margin: 0;
+}
+
+.header-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.primary-button {
+  background-color: var(--primary-purple);
+  color: white;
+  border: none;
+  border-radius: 9px;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.primary-button:hover {
+  background-color: var(--dark-purple-text);
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  
+  .header-actions {
+    width: 100%;
+  }
+  
+  .primary-button {
+    width: 100%;
+  }
+}
