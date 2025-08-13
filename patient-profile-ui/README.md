@@ -1,18 +1,5 @@
 # Patient Profile UI
 
-A simplified Patient Profile UI built with React and Vite, focusing on component structure, layout fidelity, and styling accuracy.
-
-## Features
-
-- **Static Side Navigation** - Navigation panel with icons for different sections
-- **Patient Header** - Display patient avatar (initials), name, and action button
-- **Info Card** - Shows patient phone, email, injury location, and diagnosis with edit functionality
-- **HEP Summary Card** - Displays Home Exercise Program stats (Sessions/Day, Total Reps) with edit button
-- **Stats & Actions Panel** - Weekly streak visualization, enrollment weeks, compliance percentage, and action buttons
-- **Patient Education** - Placeholder section for educational materials
-
-## Tech Stack
-
 - **Framework**: React (JavaScript)
 - **Build Tool**: Vite
 - **Routing**: React Router
